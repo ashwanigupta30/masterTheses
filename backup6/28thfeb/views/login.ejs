@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="/css/bootstrap.css"/>
+	<!-- custom css for this page -->
+	<link rel="stylesheet" href="/css/login.css"/>
+</head>
+<body>
+	<!-- for the blur background -->
+	<div class="body-background"></div>
+
+	<!-- container for login form -->
+	<div class="container login-container">
+		<div class="login-image-container">
+			<img src="img/vitLogo2.png">
+		</div>
+		<form method="post" action="/login" class="">
+			<div class="form-field-container">
+				<input type="text" placeholder="User Name" name="username" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="password" placeholder="Password" name="password" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="submit" name="submit" value="Login" class="form-control">
+				<p class="forgot-password-container"><span class="register-here"><a href="/registration">Register</a></span><span class="forgot-password"><a href="forgotPassword"> Forgot Password? </a></span></p>
+			</div>
+		</form><!-- end of login form -->
+	<div><!-- end of login container -->
+
+
+
+	<!-- jquery js -->
+	<script src="/js/jquery.min.js"></script>
+	<!-- popper js -->
+	<script src="/js/popper.js"></script>
+	<!-- bootstrap js-->
+	<script src="/js/bootstrap.js"></script>
+</body>
+</html>

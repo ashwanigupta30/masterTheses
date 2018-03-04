@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="/css/bootstrap.css"/>
+	<!-- toastr css -->
+	<link rel="stylesheet" href="/css/toastr.css"/>
+	<!-- custom css for this page -->
+	<link rel="stylesheet" href="/css/registration.css"/>
+</head>
+<body>
+	<!-- for the blur background -->
+	<div class="body-background"></div>
+
+	<!-- container for login form -->
+	<div class="container login-container">
+		<div class="login-image-container">
+			<img src="img/vitLogo2.png">
+		</div>
+		<form method="post" action="/registration" onsubmit="return validateRegistrationForm()">
+			<div class="form-field-container">
+				<input type="text" id='email' placeholder="E-Mail" name="email" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="text" id='userName' placeholder="User Name" name="userName" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="Password" id='password' placeholder="Password" name="password" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="Password" id='repassword' placeholder="Re-Type Password" name="repassword" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="submit" id='submit' name="submit" value="Register" class="form-control">
+			</div>
+		</form><!-- end of login form -->
+	<div><!-- end of login container -->
+
+
+
+	<!-- jquery js -->
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<!-- popper js -->
+	<script type="text/javascript" src="/js/popper.js"></script>
+	<!-- bootstrap js-->
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<!-- toastr js -->
+	<script type="text/javascript" src="/js/toastr.min.js"></script>
+	<!-- custom js files for this page -->
+	<script type="text/javascript" src="/js/registration.js"></script>
+</body>
+</html>

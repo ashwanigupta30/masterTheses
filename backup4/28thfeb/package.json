@@ -1,0 +1,23 @@
+{
+  "name": "28thfeb",
+  "version": "1.0.0",
+  "description": "collegeSocialNetwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "ashawni gupta 16mca0025",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.6",
+    "path": "^0.12.7",
+    "popper.js": "^1.12.9"
+  }
+}
