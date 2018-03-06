@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="/css/bootstrap.css"/>
+	<!-- custom css for this page -->
+	<link href="CSS/profile.css" rel="stylesheet" type="text/css"/>
+	<!-- railwy font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid header-bar">
+	    <div class="logout-button-holder">
+	        <a href="/logout" class="btn btn-outline-light logout-button">Logout</a>
+	    </div>
+	    <div class="logo-holder">
+	        <img src="img/vitLogo2.png" alt="vit logo"/>
+	    </div>
+	</div>
+	<div class="container-fluid page-body">
+	    <div class="person-name-pic-container">
+	        <div class="name-holder">
+	            <span id="firstName">Ashwani</span><span id='lastName'>Gupta</span>
+	            <div class="below-name-button-holder">
+	                <a href="/message" class="btn btn-outline-info">Message <i class="fas fa-envelope"></i></a>
+	                <a href="/request" class="btn btn-outline-warning">Request <i class="fas fa-handshake"></i></a>
+	            </div>
+	        </div>
+	        <div class="profile-pic-holder">
+	            <a href="/viweProfilePic">
+	                <img src="img/profilepic.jpg" alt=""/>
+	            </a>
+	        </div>
+	    </div>
+	    <div class="details-posts-container row justify-content-md-center">
+	        <div class="col-6 col-md-3 user-details-holder">
+	            <h3><i class="fas fa-globe"></i> Info</h3>
+	            <ul class="list-group">
+	                <li class="list-group-item"><i class="fas fa-home"></i> From Kolkata</li>
+	                <li class="list-group-item"><i class="fas fa-map-marker"></i> Lives in Vellore</li>
+	                <li class="list-group-item"><i class="fas fa-birthday-cake"></i> 13th March 1993</li>
+	                <li class="list-group-item">Porta ac consectetur ac</li>
+	                <li class="list-group-item">Vestibulum at eros</li>
+	            </ul>
+	        </div>
+	        <div class="col-6 col-md-9 user-posts-holder">
+	            <div class="post-actions-holder">
+	                <h3><i class="fas fa-edit"></i> Posts</h3>
+	                <a href="/makeApost" class="btn btn-outline-dark"><i class="fas fa-pencil-alt"></i> Make A Post</a>
+	                <a href="/events" class="btn btn-outline-dark"><i class="far fa-flag"></i> Events</a>
+	            </div>
+	            <div class="share-area-holder">
+	                <textarea placeholder="whats on your mind ?"></textarea>
+	                <div class="share-button-holder">
+	                    <a href="/share" class="btn btn-outline-info">Share</a>
+	                </div>
+	            </div>
+	            <ul class="list-group">
+	                <li class="list-group-item">Cras justo odio</li>
+	                <li class="list-group-item">Dapibus ac facilisis in</li>
+	                <li class="list-group-item">Morbi leo risus</li>
+	                <li class="list-group-item">Porta ac consectetur ac</li>
+	                <li class="list-group-item">Vestibulum at eros</li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+	<!-- jquery js -->
+	<script src="/js/jquery.min.js"></script>
+	<!-- popper js -->
+	<script src="/js/popper.js"></script>
+	<!-- bootstrap js-->
+	<script src="/js/bootstrap.js"></script>
+	<!-- font awesome for awesome icons -->
+	<script src="js/font-awesome.js" type="text/javascript"></script>
+	<!-- custom js -->
+	<script type="text/javascript" src="/js/profile.js"></script>
+</body>
+</html>

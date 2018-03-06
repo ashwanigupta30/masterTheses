@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="/css/bootstrap.css"/>
+	<!-- toastr css -->
+	<link rel="stylesheet" href="/css/toastr.css"/>
+	<!-- custom css for this page -->
+	<link rel="stylesheet" href="/css/registration.css"/>
+	<link rel="stylesheet" href="/css/userDetailsRegistration.css"/>
+</head>
+<body>
+	<!-- for the blur background -->
+	<div class="body-background"></div>
+
+	<!-- container for login form -->
+	<div class="container login-container">
+		<div class="login-image-container">
+			<img src="img/vitLogo2.png">
+		</div>
+		<form method="post" action="/userDetailsRegistraion" onsubmit="return validateUserDetailsForm()">
+			<div class="form-field-container">
+				<input type="text" id='objectId' name="objectId" class="form-control" hidden="">
+			</div>
+			<div class="form-field-container">
+				<input type="text" id='userName' value="" name="userName" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="text" id='firstName' placeholder="First Name" name="firstName" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="text" id='lastName' placeholder="Last Name" name="lastName" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="date" id='dateOfBirth' placeholder="date of birth" name="dateOfBirth" class="form-control">
+			</div>
+			<div class="form-field-container">
+				<input type="submit" id='submitbtn' name="submitbtn" class="form-control btn btn-primary" value="SUBMIT">
+			</div>
+		</form><!-- end of login form -->
+	<div><!-- end of login container -->
+
+
+
+	<!-- jquery js -->
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<!-- popper js -->
+	<script type="text/javascript" src="/js/popper.js"></script>
+	<!-- bootstrap js-->
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<!-- toastr js -->
+	<script type="text/javascript" src="/js/toastr.min.js"></script>
+	<!-- custom js files for this page -->
+	<script type="text/javascript" src="/js/userDetailsRegistration.js"></script>
+</body>
+</html>
