@@ -1,0 +1,75 @@
+body{
+    background-color: #fafafa;
+}
+.header-bar{
+    background-color: #98e0ff;
+    padding: 5px;
+    display: flow-root;
+}
+.logout-button-holder{
+    float: right;
+}
+.logo-holder{
+    display: inline-block;
+}
+.logo-holder img{
+    width: 132px;
+    height: 42px;
+}
+.person-name-pic-container{
+    display: flow-root;
+}
+.person-name-pic-container .name-holder{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+}
+.person-name-pic-container .name-holder .below-name-button-holder{
+    text-align: right;
+}
+.person-name-pic-container .profile-pic-holder{
+    display: inline-block;
+    float: right;
+    padding: 20px;
+}
+.person-name-pic-container .profile-pic-holder a img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+/*below css is for the body part*/
+.page-body{
+   font-family: 'Raleway', sans-serif; 
+}
+.page-body .details-posts-container{
+    /*display: flow-root;*/
+}
+.page-body .details-posts-container .user-details-holder h3{
+    font-size:1.5em;
+}
+.page-body .details-posts-container .user-posts-holder .post-actions-holder{
+    font-family: 'Raleway', sans-serif;
+    padding: 4px;
+}
+.page-body .details-posts-container .user-posts-holder h3{
+    display: inline-block;
+    margin-right: 5px;
+    font-size:1.5em;
+}
+.user-posts-holder .share-area-holder{
+    padding: 3px;
+}
+.user-posts-holder .share-area-holder textarea{
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: none;
+    outline: none;
+}
+.user-posts-holder .share-area-holder .share-button-holder{
+    background-color: #e7e7e7;
+    text-align: right;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
